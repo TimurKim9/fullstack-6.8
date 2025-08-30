@@ -1,35 +1,27 @@
 @font-face {
-    font-family: 'TT Lakes';
-    src: url('TTLakes-Medium.eot');
-    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
-        url('TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
-        url('TTLakes-Medium.woff') format('woff'),
-        url('TTLakes-Medium.ttf') format('truetype');
+    font-family: 'TT Laker';
+    src: url('./fonts/TTLaker-Light.woff') format('woff'),
+         url('./fonts/TTLaker-Light.ttf') format('truetype'); 
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Laker';
+    src: url('./fonts/TTLaker-Medium.woff') format('woff'),
+         url('./fonts/TTLaker-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'TT Lakes';
-    src: url('TTLakes-ExtraBold.eot');
-    src: local('TT Lakes ExtraBold'), local('TTLakes-ExtraBold'),
-        url('TTLakes-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('TTLakes-ExtraBold.woff') format('woff'),
-        url('TTLakes-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
+    font-family: 'TT Laker';
+    src: url('./fonts/TTLaker-Bold.woff') format('woff'),
+         url('./fonts/TTLaker-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'TT Lakes';
-    src: url('TTLakes-Light.eot');
-    src: local('TT Lakes Light'), local('TTLakes-Light'),
-        url('TTLakes-Light.eot?#iefix') format('embedded-opentype'),
-        url('TTLakes-Light.woff') format('woff'),
-        url('TTLakes-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
 
 body {
     background-color: #F8F8F8;
@@ -238,7 +230,7 @@ p {
         scrollbar-width: none;
     }
     p {
-        min-width: 320px;
+        width: 320px;
         margin-left: 16px;
         margin-right: 16px;
     }
@@ -284,7 +276,7 @@ p {
     }
 
     .text-container {
-        min-width: 312px; 
+        width: 312px; 
         margin-left: 15px;    
     }
     .text{
